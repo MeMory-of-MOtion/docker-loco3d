@@ -26,7 +26,11 @@ In the generated datasets, all the motions are guarantee to be collision-free, r
 The dataset contain the following files for each successful runs :
 
 * infos.log give the random configurations sampled (which can be used to re-run this particular problem) and the status of each method.
-* contact sequence trajectory.xml contains the sequence of contacts (set of active contacts with positions and normals) with the duration of each contact phase and the centroidal trajectory. This is a serialized class (ContactSequenceHumanoid) that can be loaded with python. See package “multicontact” (https://gepgitlab.laas.fr/loco-3d/multicontact tag V1.0.0 is guarantee to work with the current dataset) for more information.
+* contact sequence trajectory.xml contains the sequence of contacts (set of active contacts with positions and normals) with the duration of each contact phase and the centroidal trajectory. This is a serialized class (ContactSequenceHumanoid) that can be loaded with python. See package “multicontact” (https://gepgitlab.laas.fr/loco-3d/multicontact tag V1.0.0 is guarantee to work with the current dataset) for more information. Once loaded, this object contains a sequence of **contact phases**. Each phases contain the following data : 
+ * Placement of each active contact
+ * Time interval of the contact phase
+ * Centroidal State trajectory (c,dc,L)
+ * Centroidal control trajectory (ddc,dL)
 * TEST NAME config.csv, TEST NAME vel.csv, TEST NAME acc.csv contain the configuration, velocity, acceleration for each join along the trajectory. The first column corresponds to time.
 * TEST NAME.hip, TEST NAME.zmp, TEST NAME.pos are files that can be used to test the movement with openHRP (simulation software). 
   * TEST NAME.zmp contains the reference zmp trajectory in the local robot frame.
