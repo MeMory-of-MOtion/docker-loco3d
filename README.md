@@ -31,7 +31,7 @@ The dataset contain the following files for each successful runs :
   * Time interval of the contact phase
   * Centroidal State trajectory (c,dc,L)
   * Centroidal control trajectory (ddc,dL)
-* TEST NAME config.csv, TEST NAME vel.csv, TEST NAME acc.csv contain the configuration, velocity, acceleration for each join along the trajectory. The first column corresponds to time.
+* TEST NAME config.csv, TEST NAME vel.csv, TEST NAME acc.csv contain the configuration, velocity, acceleration for each join along the trajectory. The first column corresponds to time. **Note:** There is a mismatch in the time between this files and the ContactSequence file. There is an offset of 0.5 second at the beginning and at the end of the motion which is not present in the ContactSequence timings. 
 * TEST NAME.hip, TEST NAME.zmp, TEST NAME.pos are files that can be used to test the movement with openHRP (simulation software). 
   * TEST NAME.zmp contains the reference zmp trajectory in the local robot frame.
   * TEST NAME.pos contains the configurations. 
