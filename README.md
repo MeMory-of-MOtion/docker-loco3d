@@ -10,7 +10,7 @@ Below is an overview of the data stored in the current dataset (V0.9). This info
 
 For visualization you will mostly be interested in the joint trajectory q(t). This data is contained in the files \*\_config.csv where each line contains [t q(t)]. Be careful that the first 7 values of q(t) is the position and orientation (Quaternion x,y,z,w) of the root.
 
-TODO : vizualisation script.
+For visualization with rviz, a jupyler notebook is provided in the folder 'visualization'. 
 
 ## Environment model :
 
