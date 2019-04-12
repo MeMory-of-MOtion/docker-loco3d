@@ -26,7 +26,7 @@ In the generated datasets, all the motions are guarantee to be collision-free, r
 The dataset contain the following files for each successful runs :
 
 * infos.log give the random configurations sampled (which can be used to re-run this particular problem) and the status of each method.
-* contact sequence trajectory.xml contains the sequence of contacts (set of active contacts with positions and normals) with the duration of each contact phase and the centroidal trajectory. This is a serialized class (ContactSequenceHumanoid) that can be loaded with python. See package “multicontact” (https://gepgitlab.laas.fr/loco-3d/multicontact tag V1.0.0 is guarantee to work with the current dataset) for more information. Once loaded, this object contains a sequence of **contact phases**. Each phases contain the following data : 
+* contact sequence trajectory.xml contains the sequence of contacts (set of active contacts with positions and normals) with the duration of each contact phase and the centroidal trajectory. This is a serialized class (ContactSequenceHumanoid) that can be loaded with python. See package “multicontact” (https://gepgitlab.laas.fr/loco-3d/multicontact-api tag V1.0.0 is guarantee to work with the current dataset) for more information. Once loaded, this object contains a sequence of **contact phases**. Each phases contain the following data : 
   * Placement of each active contact
   * Time interval of the contact phase
   * Centroidal State trajectory (c,dc,L)
