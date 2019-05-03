@@ -6,19 +6,6 @@ For the complete documentation, please check the following document https://gepg
 
 Below is an overview of the data stored in the current dataset (V1.0).
 
-# Visualization of the motion
-**DEPRECATED**
-For visualization you will mostly be interested in the joint trajectory q(t). This data is contained in the files \*\_config.csv where each line contains [t q(t)]. Be careful that the first 7 values of q(t) is the position and orientation (Quaternion x,y,z,w) of the root.
-
-For visualization with rviz, a jupyler notebook is provided in the folder 'visualization'. 
-
-## Environment model :
-
-The environment is represented by the following mesh file : https://github.com/humanoid-path-planner/hpp-environments/blob/master/meshes/multicontact/bauzil_stairs.stl
-
-## Robot model : 
-
-We use the model "talos_reduced" from the following package :  https://github.com/stack-of-tasks/talos_data
 
 # Generated Data 
 
@@ -122,6 +109,7 @@ Don't forget to run the `gepetto-gui` in a separate terminal.
 # Test scenario description
 
 The following scenario all uses the robot Talos.
+The model is accessible at https://github.com/stack-of-tasks/talos_data or in the [Robotpkg](http://robotpkg.openrobots.org/) package 'robotpkg-talos-data'.
 
 ## `talos_circle` :
 
@@ -199,6 +187,8 @@ Example for stairs_m15.
 ![Example for stairs_m15](graphics/moveEffector/m15.png "Example for stairs_m15")
 ![Example for stairs_m15](graphics/videos/moveEffector/m15.gif "Example for stairs_m15")
 
+## `talos_nav_bauzil` :
 
-
+The environment is represented by the following mesh file : https://github.com/humanoid-path-planner/hpp-environments/blob/master/meshes/multicontact/bauzil_stairs.stl
+ **TODO**
 
