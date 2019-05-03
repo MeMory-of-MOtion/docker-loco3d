@@ -114,9 +114,10 @@ phase_interval[i][-1] == phase_interval[i+1][0]
 
 The package [multicontact-locomotion-planning](https://github.com/loco-3d/multicontact-locomotion-planning) used to generate the motions of the dataset contains a script that can load a motion from the .cs and .npz files, display it in 3D in gepetto-viewer and plot several interesting data. 
 
-Follow the basic installation procedure of this package and use the following script : 
+Follow the basic installation procedure of this package  (including the installation of gepetto-viewer, but no other optional dependencies) and use the following script : 
 https://github.com/loco-3d/multicontact-locomotion-planning/blob/master/scripts/load_motion_from_files.py
 
+Don't forget to run the `gepetto-gui` in a separate terminal.
 
 # Test scenario description
 
