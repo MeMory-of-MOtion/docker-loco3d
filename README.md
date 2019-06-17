@@ -33,7 +33,7 @@ http://hanoi.laas.fr:8080/v1.0/talos_moveEffector_stairs_p15.tar.xz
 
 ## Content of the user guide
 
-The [first section](https://github.com/loco-3d/docker_loco3d#test-scenario-description) of the guide describe the various scenarios used. The [second section](https://github.com/loco-3d/docker_loco3d#generated-data) describe the data stored and how to use them.
+The [first section](https://github.com/MeMory-of-MOtion/docker-loco3d#test-scenario-description) of the guide describe the various scenarios used. The [second section](https://github.com/MeMory-of-MOtion/docker-loco3d#generated-data) describe the data stored and how to use them.
 
 # Test scenario description
 
