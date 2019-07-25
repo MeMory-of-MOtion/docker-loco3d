@@ -145,6 +145,21 @@ Example for stairs_m15.
 ![Example for stairs_m15](graphics/moveEffector/m15.png "Example for stairs_m15")
 ![Example for stairs_m15](graphics/videos/moveEffector/m15.gif "Example for stairs_m15")
 
+## `talos_platform_random` :
+
+This scenario use an environment composed of rectangular portion of flat floor with lines of inclined patforms in-between. The smaller platform are 30cm long for 20cm width and are inclined of 15 Degree along the x or y axis. You can find the mesh here: https://github.com/pFernbach/hpp-environments/blob/devel/meshes/multicontact/plateforme_not_flat.stl
+
+For this scenario, the robot start on one of the rectangle of flat floor (choosen randomly) with an orientation of +/- 30 degree with respect to the x axis. The goal is to reach another rectangle of flat floor (also choosen randomly) in a straight line.
+
+Example with a motion crossing 2 blocks of uneven platform, in a mostly straight line.
+
+![Example with a motion crossing 2 blocks of uneven platform, in a mostly straight line](graphics/platforms/platform_straight.png "Example with a motion crossing 2 blocks of uneven platform, in a mostly straight line")
+![Example with a motion crossing 2 blocks of uneven platform, in a mostly straight line](graphics/videos/platforms/platform_straight.gif "Example with a motion crossing 2 blocks of uneven platform, in a mostly straight line")
+
+Example with a motion going to the right of the robot.
+
+![Example with a motion going to the right of the robot](graphics/platforms/platform_right.png "Example with a motion going to the right of the robot")
+![Example with a motion going to the right of the robot](graphics/videos/platforms/platform_right.gif "Example with a motion going to the right of the robot")
 
 
 ## `talos_nav_bauzil` :
