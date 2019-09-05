@@ -17,18 +17,48 @@ The dataset can be downloaded with the following links :
 
 http://hanoi.laas.fr:8080/v1.0/talos_circle.tar.xz
 
+http://hanoi.laas.fr:8080/v1.0/2/talos_circle.tar.xz
+
+
+
 http://hanoi.laas.fr:8080/v1.0/talos_circle_oriented.tar.xz
+
+http://hanoi.laas.fr:8080/v1.0/2/talos_circle_oriented.tar.xz
+
+
 
 http://hanoi.laas.fr:8080/v1.0/talos_moveEffector_flat.tar.xz
 
+http://hanoi.laas.fr:8080/v1.0/2/talos_moveEffector_flat.tar.xz
+
+http://hanoi.laas.fr:8080/v1.2/talos_moveEffector_flat.tar
+
+
+
 http://hanoi.laas.fr:8080/v1.0/talos_moveEffector_stairs_m10.tar.xz
+
+http://hanoi.laas.fr:8080/v1.0/2/talos_moveEffector_stairs_m10.tar.xz
+
 
 http://hanoi.laas.fr:8080/v1.0/talos_moveEffector_stairs_m15.tar.xz
 
+http://hanoi.laas.fr:8080/v1.0/2/talos_moveEffector_stairs_m15.tar.xz
+
+
+
 http://hanoi.laas.fr:8080/v1.0/talos_moveEffector_stairs_p10.tar.xz
+
+http://hanoi.laas.fr:8080/v1.0/2/talos_moveEffector_stairs_p10.tar.xz
+
+
 
 http://hanoi.laas.fr:8080/v1.0/talos_moveEffector_stairs_p15.tar.xz
 
+http://hanoi.laas.fr:8080/v1.0/2/talos_moveEffector_stairs_p15.tar.xz
+
+
+
+http://hanoi.laas.fr:8080/v1.1/talos_platform_random.tar
 
 
 ## Content of the user guide
