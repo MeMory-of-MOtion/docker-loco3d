@@ -60,6 +60,9 @@ http://hanoi.laas.fr:8080/v1.0/2/talos_moveEffector_stairs_p15.tar.xz
 
 http://hanoi.laas.fr:8080/v1.1/talos_platform_random.tar
 
+http://hanoi.laas.fr:8080/v1.3/talos_randomMove_flat.tar
+
+
 
 ## Content of the user guide
 
